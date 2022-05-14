@@ -1,7 +1,5 @@
 export default function ProfilePicture() {
     return (
-        <div className="profile-picture">
-            <img src="/avatar.jpg" alt="profile-picture" />
-        </div>
+        <img src="/avatar.jpg" alt="profile-picture" className="profile-picture" />
     )
 }
